@@ -27,3 +27,7 @@ A Telegram bot for search song's lyrics using the lyrics.ovh API
     ```bash
     python bot.py
     ```
+
+## Telegram Bot
+
+@LvricsBot
