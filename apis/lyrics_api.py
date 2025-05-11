@@ -1,23 +1,6 @@
-"""Lyrics API module."""
+"""LyricsOVH API module."""
 
 import requests
-
-# Define the API endpoint, headers, and token
-# url = "https://api.lyrics.ovh/v1/Sleep Token/Damocles"
-# headers = {"Authorization": "Bearer YOUR_ACCESS_TOKEN"}
-
-# artist = input("Artista: ")
-# song = input("Cancion: ")
-# url = f"https://api.lyrics.ovh/v1/{artist}/{song}"
-
-# # Make a GET request with headers
-# response = requests.get(url, timeout=5)
-
-# # Handle the response
-# if response.status_code == 200:
-#     print("Authenticated request successful:", response.json())
-# else:
-#     print("Authentication failed:", response.status_code)
 
 
 def get_lyrics(artist: str, song: str) -> str:
