@@ -15,9 +15,10 @@ A Telegram bot for search song's lyrics using the lyrics.ovh API
 
 ## Config
 
-1.  Create a file `.env` and put your bot token:
+1.  Create a file `.env` and put your bot token and Genius access token:
     ```python
     TELEGRAM_TOKEN = "YOUR_BOT_TOKEN"
+    GENIUS_TOKEN = "YOUR_GENIUS_ACCESS_TOKEN"
     ```
 2.  Install dependencies:
     ```bash
